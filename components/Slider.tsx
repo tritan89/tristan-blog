@@ -3,7 +3,9 @@ import React, { useState } from 'react';
 import { SliderData } from './sliderdata';
 import { FaArrowCircleLeft, FaArrowCircleRight } from 'react-icons/fa';
 
-const Slider = ({ slides }) => {
+
+
+const Slider = ({ slides }: {slides:any}) => {
   const [current, setCurrent] = useState(0);
   const length = slides.length;
 
@@ -44,7 +46,7 @@ const Slider = ({ slides }) => {
                   alt='/'
                   width='1440'
                   height='600'
-                  objectFit='cover'
+                  
                 />
               )}
               <FaArrowCircleRight
