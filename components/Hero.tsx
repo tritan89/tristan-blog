@@ -16,7 +16,6 @@ const Hero : React.FC<Props> = ({heading, message}) => {
       <div className='p-5 text-white z-[2] mb-12 mt-[-10rem]'>
         <h2 className='text-5xl font-bold'>{heading}</h2>
         <p className='py-5 text-xl'>{message}</p>
-        
       </div>
     </div>
   );
