@@ -16,7 +16,7 @@ const Navbar = () => {
         setTextColour("#000000")
       } else {
         setColour("transparent")
-        setTextColour("#9E9E9E")
+        setTextColour("#FAF9F6")
       }
     }
   window.addEventListener("scroll", changeColour)
