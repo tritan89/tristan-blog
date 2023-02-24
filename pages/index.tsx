@@ -17,9 +17,10 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Hero heading='Tristans blog' message='Hello, im a computer science student at UVIC'/> 
+      <Hero heading='Tristan&apos;s Blog' message='Hello, I&apos;m a computer science student at the University of Victoria. Some of my interests are offensive security and web development, 
+       here you can find some of the projects that i&apos;m working on . ' showArrow={false}/> 
       <Navbar/>
-      <Slider slides = {SliderData}/>
+      
     </>
   )
 }

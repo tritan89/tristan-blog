@@ -1,11 +1,24 @@
 import React from 'react'
 import Hero from '@/components/Hero'
 import Navbar from '@/components/Navbar'
+import Link from 'next/link'
 const projects = () => {
   return (
     <div>
-        <Hero heading = "My Projects"  message='These are some of the projects i&apos;ve been woking on to exapand my skills. '/>
+        <Hero heading = "My Projects"  message='' showArrow={true}/>
+       
         <Navbar/>
+        
+       <div className=' grid justify-center h-full'>
+       <div id="bottom" className=''> </div>
+        <h2 className='text-5xl font-bold py-5 '>Buffalo</h2>
+        <p className='  text-xl text max-w-lg py-5'>Buffalo is the latest project ive been working on. It is a meal planning app built using React Native for the frontend and Firebase for the backend. Check out the code base on my github!  </p>
+        <Link  href={"https://github.com/tritan89/buffalo"} className='focus:outline-none text-white text-center bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900'>Buffalo on Github</Link>
+       </div>
+       
+
+        
+        
     </div>
   )
 }

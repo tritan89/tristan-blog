@@ -9,10 +9,10 @@ const resume = () => {
     <div>
         
    
-    <Hero heading = "My Resume"  message=''/>
-    
-    <div className='grid h-screen place-items-center' ><Image src='/resumejan2023-1.png' alt='my resume' width={600} height={900}/></div>
-    
+    <Hero heading = "My Resume"  message='' showArrow={true}/>
+    <div id="bottom" className=''> </div>
+    {/* <div className='grid h-screen place-items-center' ><Image src='/resumejan2023-1.png' alt='my resume' width={600} height={900}/></div> */}
+    <iframe src='/Tristan_Langer_resume_2023.pdf' className='w-full h-screen' />
     <Navbar/>
     
     
