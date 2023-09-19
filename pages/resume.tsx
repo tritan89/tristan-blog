@@ -12,7 +12,7 @@ const resume = () => {
     <Hero heading = "My Resume"  message='' showArrow={true}/>
     <div id="bottom" className=''> </div>
     {/* <div className='grid h-screen place-items-center' ><Image src='/resumejan2023-1.png' alt='my resume' width={600} height={900}/></div> */}
-    <iframe src='/Tristan_Langer_resume_2023.pdf' className='w-full h-screen' />
+    <iframe src='/Resume_improving.pdf' className='w-full h-screen' />
     <Navbar/>
     
     
